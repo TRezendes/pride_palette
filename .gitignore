@@ -12,7 +12,7 @@ attributions.txt
 .pyc
 untracked/
 .ipynb_checkpoints
-*.ipynb
+Untitled*.ipynb
 .vscode
 
 # MS Office temp files
