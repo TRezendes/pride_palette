@@ -71,12 +71,12 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 <a title="Guanaco and subsequent editors, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"><img width="256" alt="Gay Pride Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png"></a>
 | class              | text class              | hex     |
 |--------------------|-------------------------|---------|
-| pride-baker-red    | pride-baker-red-text    | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#e40303">#e40303</text></svg> |
-| pride-baker-orange | pride-baker-orange-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ff8c00">#ff8c00</text></svg> 
-| pride-baker-yellow | pride-baker-yellow-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffed00">#ffed00</text></svg> 
-| pride-baker-green  | pride-baker-green-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#008026">#008026</text></svg> 
-| pride-baker-blue   | pride-baker-blue-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#004dff">#004dff</text></svg> 
-| pride-baker-purple | pride-baker-purple-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#750787">#750787</text></svg>
+| pride-baker-red    | pride-baker-red-text    | #e40303 |
+| pride-baker-orange | pride-baker-orange-text | #ff8c00 |
+| pride-baker-yellow | pride-baker-yellow-text | #ffed00 |
+| pride-baker-green  | pride-baker-green-text  | #008026 |
+| pride-baker-blue   | pride-baker-blue-text   | #004dff |
+| pride-baker-purple | pride-baker-purple-text | #750787 |
 
 <br />
 
@@ -86,17 +86,17 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                     | text class                     | hex     |
 |---------------------------|--------------------------------|---------|
-| pride-progress-red        | pride-progress-red-text        | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#e40303">#e40303</text></svg> |
-| pride-progress-orange     | pride-progress-orange-text     | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ff8c00">#ff8c00</text></svg> |
-| pride-progress-yellow     | pride-progress-yellow-text     | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffed00">#ffed00</text></svg> |
-| pride-progress-green      | pride-progress-green-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#008026">#008026</text></svg> |
-| pride-progress-blue       | pride-progress-blue-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#004dff">#004dff</text></svg> |
-| pride-progress-purple     | pride-progress-purple-text     | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#750787">#750787</text></svg> |
-| pride-progress-white      | pride-progress-white-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-progress-pink       | pride-progress-pink-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffafc8">#ffafc8</text></svg> |
-| pride-progress-light-blue | pride-progress-light-blue-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#74d7ee">#74d7ee</text></svg> |
-| pride-progress-brown      | pride-progress-brown-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#613915">#613915</text></svg> |
-| pride-progress-black      | pride-progress-black-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#000000">#000000</text></svg> |
+| pride-progress-red        | pride-progress-red-text        | #e40303 |
+| pride-progress-orange     | pride-progress-orange-text     | #ff8c00 |
+| pride-progress-yellow     | pride-progress-yellow-text     | #ffed00 |
+| pride-progress-green      | pride-progress-green-text      | #008026 |
+| pride-progress-blue       | pride-progress-blue-text       | #004dff |
+| pride-progress-purple     | pride-progress-purple-text     | #750787 |
+| pride-progress-white      | pride-progress-white-text      | #ffffff |
+| pride-progress-pink       | pride-progress-pink-text       | #ffafc8 |
+| pride-progress-light-blue | pride-progress-light-blue-text | #74d7ee |
+| pride-progress-brown      | pride-progress-brown-text      | #613915 |
+| pride-progress-black      | pride-progress-black-text      | #000000 |
 
 <br />
 
@@ -106,9 +106,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class             | text class             | hex     |
 |-------------------|------------------------|---------|
-| pride-trans-blue  | pride-trans-blue-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#5bcefa">#5bcefa</text></svg> |
-| pride-trans-pink  | pride-trans-pink-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#f5a9b8">#f5a9b8</text></svg> |
-| pride-trans-white | pride-trans-white-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
+| pride-trans-blue  | pride-trans-blue-text  | #5bcefa |
+| pride-trans-pink  | pride-trans-pink-text  | #f5a9b8 |
+| pride-trans-white | pride-trans-white-text | #ffffff |
 
 <br />
 
@@ -118,9 +118,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class           | text class           | hex     |
 |-----------------|----------------------|---------|
-| pride-bi-pink   | pride-bi-pink-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#d60270">#d60270</text></svg> |
-| pride-bi-purple | pride-bi-purple-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#9b4f96">#9b4f96</text></svg> |
-| pride-bi-blue   | pride-bi-blue-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#0038a8">#0038a8</text></svg> |
+| pride-bi-pink   | pride-bi-pink-text   | #d60270 |
+| pride-bi-purple | pride-bi-purple-text | #9b4f96 |
+| pride-bi-blue   | pride-bi-blue-text   | #0038a8 |
 
 <br />
 
@@ -130,9 +130,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class            | text class            | hex     |
 |------------------|-----------------------|---------|
-| pride-pan-pink   | pride-pan-pink-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ff218c">#ff218c</text></svg> |
-| pride-pan-yellow | pride-pan-yellow-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffd800">#ffd800</text></svg> |
-| pride-pan-blue   | pride-pan-blue-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#21b1ff">#21b1ff</text></svg> |
+| pride-pan-pink   | pride-pan-pink-text   | #ff218c |
+| pride-pan-yellow | pride-pan-yellow-text | #ffd800 |
+| pride-pan-blue   | pride-pan-blue-text   | #21b1ff |
 
 <br />
 
@@ -142,9 +142,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class               | text class               | hex     |
 |---------------------|--------------------------|---------|
-| pride-labrys-violet | pride-labrys-violet-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#792491">#792491</text></svg> |
-| pride-labrys-black  | pride-labrys-black-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#000000">#000000</text></svg> |
-| pride-labrys-white  | pride-labrys-white-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
+| pride-labrys-violet | pride-labrys-violet-text | #792491 |
+| pride-labrys-black  | pride-labrys-black-text  | #000000 |
+| pride-labrys-white  | pride-labrys-white-text  | #ffffff |
 
 <br />
 
@@ -154,14 +154,14 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                     | text class                     | hex     |
 |---------------------------|--------------------------------|---------|
-| pride-lipstick-dark-pink  | pride-lipstick-dark-pink-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#a40061">#a40061</text></svg> |
-| pride-lipstick-dusty-pink | pride-lipstick-dusty-pink-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#b75592">#b75592</text></svg> |
-| pride-lipstick-pink       | pride-lipstick-pink-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#d063a6">#d063a6</text></svg> |
-| pride-lipstick-lavender   | pride-lipstick-lavender-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#e4accf">#e4accf</text></svg> |
-| pride-lipstick-white      | pride-lipstick-white-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-lipstick-pale-red   | pride-lipstick-pale-red-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#c54e54">#c54e54</text></svg> |
-| pride-lipstick-brown      | pride-lipstick-brown-text      | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#8a1e04">#8a1e04</text></svg> |
-| pride-lipstick-red        | pride-lipstick-red-text        | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#eb1449">#eb1449</text></svg> |
+| pride-lipstick-dark-pink  | pride-lipstick-dark-pink-text  | #ffffff |
+| pride-lipstick-dusty-pink | pride-lipstick-dusty-pink-text | #b75592 |
+| pride-lipstick-pink       | pride-lipstick-pink-text       | #d063a6 |
+| pride-lipstick-lavender   | pride-lipstick-lavender-text   | #e4accf |
+| pride-lipstick-white      | pride-lipstick-white-text      | #ffffff |
+| pride-lipstick-pale-red   | pride-lipstick-pale-red-text   | #c54e54 |
+| pride-lipstick-brown      | pride-lipstick-brown-text      | #8a1e04 |
+| pride-lipstick-red        | pride-lipstick-red-text        | #eb1449 |
 
 <br />
 
@@ -171,13 +171,13 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                   | text class                   | hex     |
 |-------------------------|------------------------------|---------|
-| pride-gwen-dark-orange  | pride-gwen-dark-orange-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#d52d00">#d52d00</text></svg> |
-| pride-gwen-orange       | pride-gwen-orange-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ef7627">#ef7627</text></svg> |
-| pride-gwen-light-orange | pride-gwen-light-orange-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ff9a56">#ff9a56</text></svg> |
-| pride-gwen-white        | pride-gwen-white-text        | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-gwen-pink         | pride-gwen-pink-text         | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#d162a4">#d162a4</text></svg> |
-| pride-gwen-dusty-pink   | pride-gwen-dusty-pink-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#b55690">#b55690</text></svg> |
-| pride-gwen-dark-rose    | pride-gwen-dark-rose-text    | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#a30262">#a30262</text></svg> |
+| pride-gwen-dark-orange  | pride-gwen-dark-orange-text  | #d52d00 |
+| pride-gwen-orange       | pride-gwen-orange-text       | #ef7627 |
+| pride-gwen-light-orange | pride-gwen-light-orange-text | #ff9a56 |
+| pride-gwen-white        | pride-gwen-white-text        | #ffffff |
+| pride-gwen-pink         | pride-gwen-pink-text         | #d162a4 |
+| pride-gwen-dusty-pink   | pride-gwen-dusty-pink-text   | #b55690 |
+| pride-gwen-dark-rose    | pride-gwen-dark-rose-text    | #a30262 |
 
 <br />
 
@@ -187,8 +187,8 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                 | text class                 | hex     |
 |-----------------------|----------------------------|---------|
-| pride-intersex-yellow | pride-intersex-yellow-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffd800">#ffd800</text></svg> |
-| pride-intersex-violet | pride-intersex-violet-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#7902aa">#7902aa</text></svg> |
+| pride-intersex-yellow | pride-intersex-yellow-text | #ffd800 |
+| pride-intersex-violet | pride-intersex-violet-text | #7902aa |
 
 <br />
 
@@ -198,10 +198,10 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class            | text class            | hex     |
 |------------------|-----------------------|---------|
-| pride-ace-black  | pride-ace-black-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#000000">#000000</text></svg> |
-| pride-ace-grey   | pride-ace-grey-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#a3a3a3">#a3a3a3</text></svg> |
-| pride-ace-white  | pride-ace-white-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-ace-purple | pride-ace-purple-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#800080">#800080</text></svg> |
+| pride-ace-black  | pride-ace-black-text  | #000000 |
+| pride-ace-grey   | pride-ace-grey-text   | #a3a3a3 |
+| pride-ace-white  | pride-ace-white-text  | #ffffff |
+| pride-ace-purple | pride-ace-purple-text | #800080 |
 
 <br />
 
@@ -211,11 +211,11 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                 | text class                 | hex     |
 |-----------------------|----------------------------|---------|
-| pride-aro-green       | pride-aro-green-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#3da542">#3da542</text></svg> |
-| pride-aro-light-green | pride-aro-light-green-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#a7d379">#a7d379</text></svg> |
-| pride-aro-white       | pride-aro-white-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-aro-grey        | pride-aro-grey-text        | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#a9a9a9">#a9a9a9</text></svg> |
-| pride-aro-black       | pride-aro-black-text       | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#000000">#000000</text></svg> |
+| pride-aro-green       | pride-aro-green-text       | #3da542 |
+| pride-aro-light-green | pride-aro-light-green-text | #a7d379 |
+| pride-aro-white       | pride-aro-white-text       | #ffffff |
+| pride-aro-grey        | pride-aro-grey-text        | #a9a9a9 |
+| pride-aro-black       | pride-aro-black-text       | #000000 |
 
 <br />
 
@@ -225,11 +225,11 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                    | text class                    | hex     |
 |--------------------------|-------------------------------|---------|
-| pride-genderfluid-pink   | pride-genderfluid-pink-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ff76a4">#ff76a4</text></svg> |
-| pride-genderfluid-white  | pride-genderfluid-white-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-genderfluid-purple | pride-genderfluid-purple-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#c011d7">#c011d7</text></svg> |
-| pride-genderfluid-black  | pride-genderfluid-black-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#000000">#000000</text></svg> |
-| pride-genderfluid-blue   | pride-genderfluid-blue-text   | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#2f3cbe">#2f3cbe</text></svg> |
+| pride-genderfluid-pink   | pride-genderfluid-pink-text   | #ff76a4 |
+| pride-genderfluid-white  | pride-genderfluid-white-text  | #ffffff |
+| pride-genderfluid-purple | pride-genderfluid-purple-text | #c011d7 |
+| pride-genderfluid-black  | pride-genderfluid-black-text  | #000000 |
+| pride-genderfluid-blue   | pride-genderfluid-blue-text   | #2f3cbe |
 
 <br />
 
@@ -239,9 +239,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                  | text class                  | hex     |
 |------------------------|-----------------------------|---------|
-| pride-polysexual-pink  | pride-polysexual-pink-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#f714ba">#f714ba</text></svg> |
-| pride-polysexual-green | pride-polysexual-green-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#01d66a">#01d66a</text></svg> |
-| pride-polysexual-blue  | pride-polysexual-blue-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#1594f6">#1594f6</text></svg> |
+| pride-polysexual-pink  | pride-polysexual-pink-text  | #f714ba |
+| pride-polysexual-green | pride-polysexual-green-text | #01d66a |
+| pride-polysexual-blue  | pride-polysexual-blue-text  | #1594f6 |
 
 <br />
 
@@ -251,9 +251,9 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                      | text class                      | hex     |
 |----------------------------|---------------------------------|---------|
-| pride-genderqueer-lavender | pride-genderqueer-lavender-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#b57edc">#b57edc</text></svg> |
-| pride-genderqueer-white    | pride-genderqueer-white-text    | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-genderqueer-green    | pride-genderqueer-green-text    | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#4a8123">#4a8123</text></svg> |
+| pride-genderqueer-lavender | pride-genderqueer-lavender-text | #b57edc |
+| pride-genderqueer-white    | pride-genderqueer-white-text    | #ffffff |
+| pride-genderqueer-green    | pride-genderqueer-green-text    | #4a8123 |
 
 <br />
 
@@ -263,10 +263,10 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 | class                  | text class                  | hex     |
 |------------------------|-----------------------------|---------|
-| pride-nonbinary-yellow | pride-nonbinary-yellow-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#fcf434">#fcf434</text></svg> |
-| pride-nonbinary-white  | pride-nonbinary-white-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#ffffff">#ffffff</text></svg> |
-| pride-nonbinary-purple | pride-nonbinary-purple-text | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#9c59d1">#9c59d1</text></svg> |
-| pride-nonbinary-black  | pride-nonbinary-black-text  | <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="80px" height="1.5rem" font-size="1.3rem"><text x="0" y="20" fill="#2c2c2c">#2c2c2c</text></svg> |
+| pride-nonbinary-yellow | pride-nonbinary-yellow-text | #fcf434 |
+| pride-nonbinary-white  | pride-nonbinary-white-text  | #ffffff |
+| pride-nonbinary-purple | pride-nonbinary-purple-text | #9c59d1 |
+| pride-nonbinary-black  | pride-nonbinary-black-text  | #2c2c2c |
 
 <br />
 
