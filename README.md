@@ -66,8 +66,6 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 ## Flags and Classes
 
-([View the README in html to see the colors along with their corresponding classes.](https://htmlpreview.github.io/?https://github.com/TRezendes/pride_palette/blob/main/README.html))
-
 ### Rainbow Flag
 
 <a title="Guanaco and subsequent editors, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"><img width="256" alt="Gay Pride Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png"></a>
