@@ -1,7 +1,48 @@
 <!DOCTYPE html>
+
 <head>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=doxy"></script>
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/light-946902aac6a1.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/dark-030e28cb8394.css" />
+    <link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/dark_dimmed-53fac7eeaef0.css" />
+    <link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/dark_high_contrast-e7297f24f20e.css" />
+    <link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/dark_colorblind-2c82e49ee788.css" />
+    <link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/light_colorblind-b3c5f4428be3.css" />
+    <link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/light_high_contrast-b249b3c5ff73.css" />
+    <link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/light_tritanopia-413c5e259397.css" />
+    <link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet"
+        data-href="https://github.githubassets.com/assets/dark_tritanopia-7690b6bac103.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/primer-primitives-fb1d51d1ef66.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/primer-0e3420bbec16.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/global-f0dd479818fb.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/github-a69d72a5a7a6.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet"
+        href="https://github.githubassets.com/assets/code-75f3d5c8c0e4.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TRezendes/pride_palette@main/pride-palette.css">
     <style>
+        body {
+            background-color: #111529;
+            color: #ffffff
+        }
+        .content {
+            font-size: larger;
+            margin: 2% 0;
+            margin-left: 10%;
+            margin-right: 30%;
+        }
         .column {
             float: left;
             width: 50%;
@@ -14,8 +55,10 @@
         }
     </style>
 </head>
-
+<body>
+    <div class="content">
 <h1 id="pride-palette">Pride Palette</h1>
+<p><a href="https://github.com/TRezendes/pride_palette">Return to the Pride Palette GitHub repository</a></p>
 <p>This CSS file collects the colors of 15 different pride flags in an easy to use, easy to remember color library for
     use in any html project.</p>
 <p>It started as a component of my <a href="https://wwww.IsMightier.org">IsMightier</a> project. I spun it off into its
@@ -37,14 +80,14 @@
 <h2 id="generator">Generator</h2>
 <p>Included in this repo is a Notebook file that can be used to generate CSS code as used in pride-palette.css. Passing
     in a dictionary of the form:</p>
-<pre><code class="lang-python">flags = {
+<pre class="prettyprint"><code class="lang-python">flags = {
         flag<span class="hljs-symbol">Name1</span>: {color<span class="hljs-symbol">Name1</span>a: hexCode<span class="hljs-number">1</span>a,color<span class="hljs-symbol">Name2</span>a: hexCode<span class="hljs-number">2</span>a},
         flag<span class="hljs-symbol">Name2</span>: {color<span class="hljs-symbol">Name1</span>b: hexCode<span class="hljs-number">1</span>b,color<span class="hljs-symbol">Name2</span>b: hexCode<span class="hljs-number">2</span>b},
         etc…
         }
     </code></pre>
 <p>Will generate</p>
-<pre><code class="lang-css"><span class="hljs-selector-class">.pride-flagName1-colorName1a</span> {
+<pre class="prettyprint"><code class="lang-css"><span class="hljs-selector-class">.pride-flagName1-colorName1a</span> {
         <span class="hljs-attribute">color</span>: <span class="hljs-number">#ffffff</span>;
         <span class="hljs-attribute">background-color</span>: #hexCode1a;
     }
@@ -767,3 +810,6 @@
         href="https://www.flagcolorcodes.com/flags/pride">https://www.flagcolorcodes.com/flags/pride</a> &amp; <a
         href="https://brandpalettes.com/category/flags/lgbtq-flags/">https://brandpalettes.com/category/flags/lgbtq-flags/</a>
     and may differ slightly from those listed in other sources (including the SVGs on this page).</p>
+
+</div>
+</body>
