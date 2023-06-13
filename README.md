@@ -277,3 +277,12 @@ The Palette currently contains 15 different flags explicitly. The fact that a pa
 All flag images in this README are linked from [Wikimedia Commons](https://commons.wikimedia.org).
 
 Colors in the Palette are from <https://www.flagcolorcodes.com/flags/pride> & <https://brandpalettes.com/category/flags/lgbtq-flags/> and may differ slightly from those listed in other sources (including the SVGs on this page).
+
+<br />
+
+---
+
+<br />
+
+![GitHub](https://img.shields.io/github/license/TRezendes/pride_palette?color=d60270&style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/TRezendes/pride_palette?color=0038a8&label=version&style=flat-square)
+
