@@ -272,7 +272,7 @@ Appending an asterisk (*) to the end of the colorName will change the text color
 
 ## Notes, Acknowledgements, and Sources
 
-The Palette currently contains 15 different flags explicitly. The fact that a particular flag is or is not included in this version of the Palette does not reflect a desire to gatekeep the queer community or to render judgement on who should or should not be included and accepted. It reflects only the fact that I have a finite amount of time in my day and had t ostop somewhere for now. In the future, I aim to expand it to at least all of the flags included on the [Wikipedia Pride Flag page](https://en.wikipedia.org/wiki/Pride_flag).
+The Palette currently contains 15 different flags explicitly. The fact that a particular flag is or is not included in this version of the Palette does not reflect a desire to gatekeep the queer community or to render judgement on who should or should not be included and accepted. It reflects only the fact that I have a finite amount of time in my day and had to stop somewhere for now. In the future, I aim to expand it to at least all of the flags included on the [Wikipedia Pride Flag page](https://en.wikipedia.org/wiki/Pride_flag).
 
 All flag images in this README are linked from [Wikimedia Commons](https://commons.wikimedia.org).
 
