@@ -276,7 +276,7 @@ The Palette currently contains 15 different flags explicitly. The fact that a pa
 
 All flag images in this README are linked from [Wikimedia Commons](https://commons.wikimedia.org).
 
-Colors in the Palette are from <https://www.flagcolorcodes.com/flags/pride> & <https://brandpalettes.com/category/flags/lgbtq-flags/> and may differ slightly from those listed in other sources (including the SVGs on this page).
+Colors in the Palette may differ slightly from those listed in other sources (including the SVGs on this page). Most of the colors come from <https://www.flagcolorcodes.com/flags/pride> and/or <https://brandpalettes.com/category/flags/lgbtq-flags/>. The colors of the [Abrosexual Pride](abrosexual-pride) flag are from <https://www.deviantart.com/savvyred/journal/Pride-Flags-Colors-explained-379547414>.
 
 <br />
 
