@@ -1,522 +1,2800 @@
+:root {
+  --pride-baker78-hot-pink: #ff69b4;
+  --pride-baker78-red: #ff0000;
+  --pride-baker78-orange: #ff8e00;
+  --pride-baker78-yellow: #ffff00;
+  --pride-baker78-green: #008e00;
+  --pride-baker78-turquoise: #00c0c0;
+  --pride-baker78-indigo: #400098;
+  --pride-baker78-violet: #8e008e;
+
+  --pride-baker-red: #e50000;
+  --pride-baker-orange: #ff8d00;
+  --pride-baker-yellow: #ffee00;
+  --pride-baker-green: #028121;
+  --pride-baker-blue: #004cff;
+  --pride-baker-purple: #770088;
+
+  --pride-rainbow-red: #e50000;
+  --pride-rainbow-orange: #ff8d00;
+  --pride-rainbow-yellow: #ffee00;
+  --pride-rainbow-green: #028121;
+  --pride-rainbow-blue: #004cff;
+  --pride-rainbow-purple: #770088;
+
+  --pride-progress-red: #e40303;
+  --pride-progress-orange: #ff8c00;
+  --pride-progress-yellow: #ffed00;
+  --pride-progress-green: #008026;
+  --pride-progress-blue: #004dff;
+  --pride-progress-purple: #750787;
+  --pride-progress-white: #ffffff;
+  --pride-progress-pink: #ffafc8;
+  --pride-progress-light-blue: #74d7ee;
+  --pride-progress-brown: #613915;
+  --pride-progress-black: #000000;
+
+  --pride-aceflux-rose: #c62253;
+  --pride-aceflux-magenta: #c12678;
+  --pride-aceflux-fuchsia: #c0279a;
+  --pride-aceflux-violet: #a928ac;
+  --pride-aceflux-orchid: #8c26ae;
+
+  --pride-achillean-blue: #99c6ea;
+  --pride-achillean-cream: #f9fdea;
+  --pride-achillean-light-green: #acdd4d;
+  --pride-achillean-dark-green: #659533;
+
+  --pride-abrosexual-dark-green: #65c286;
+  --pride-abrosexual-light-green: #b4e4cc;
+  --pride-abrosexual-white: #ffffff;
+  --pride-abrosexual-light-pink: #e796b7;
+  --pride-abrosexual-dark-pink: #d9446e;
+
+  --pride-agender-black: #010204;
+  --pride-agender-grey: #bcc4c6;
+  --pride-agender-white: #e9edee;
+  --pride-agender-green: #b8f483;
+
+  --pride-aroace-orange: #e28c00;
+  --pride-aroace-yellow: #eccd00;
+  --pride-aroace-white: #ffffff;
+  --pride-aroace-light-blue: #62aedc;
+  --pride-aroace-dark-blue: #203856;
+
+  --pride-aro-green: #3da542;
+  --pride-aro-light-green: #a7d379;
+  --pride-aro-white: #ffffff;
+  --pride-aro-grey: #a9a9a9;
+  --pride-aro-black: #000000;
+
+  --pride-aromantic-green: #3da542;
+  --pride-aromantic-light-green: #a7d379;
+  --pride-aromantic-white: #ffffff;
+  --pride-aromantic-grey: #a9a9a9;
+  --pride-aromantic-black: #000000;
+
+  --pride-ace-black: #000000;
+  --pride-ace-grey: #a3a3a3;
+  --pride-ace-white: #ffffff;
+  --pride-ace-purple: #800080;
+
+  --pride-asexual-black: #000000;
+  --pride-asexual-grey: #a3a3a3;
+  --pride-asexual-white: #ffffff;
+  --pride-asexual-purple: #800080;
+
+  --pride-bear-dark-brown: #623804;
+  --pride-bear-orange: #d56300;
+  --pride-bear-golden-yellow: #fedd63;
+  --pride-bear-tan: #fee6b8;
+  --pride-bear-white: #ffffff;
+  --pride-bear-grey: #555555;
+  --pride-bear-black: #000000;
+
+  --pride-bigender-pink: #c479a2;
+  --pride-bigender-light-pink: #eda5cd;
+  --pride-bigender-purple: #d6c7e8;
+  --pride-bigender-white: #ffffff;
+  --pride-bigender-light-blue: #9ac7e8;
+  --pride-bigender-blue: #6d82d1;
+
+  --pride-bi-pink: #d0006f;
+  --pride-bi-purple: #8c4799;
+  --pride-bi-blue: #0033a0;
+
+  --pride-bisexual-pink: #d0006f;
+  --pride-bisexual-purple: #8c4799;
+  --pride-bisexual-blue: #0033a0;
+
+  --pride-demiboy-dark-grey: #7f7f7f;
+  --pride-demiboy-light-grey: #c4c4c4;
+  --pride-demiboy-blue: #9ad9eb;
+  --pride-demiboy-white: #ffffff;
+
+  --pride-demigirl-dark-grey: #7f7f7f;
+  --pride-demigirl-light-grey: #c4c4c4;
+  --pride-demigirl-pink: #ffaec9;
+  --pride-demigirl-white: #ffffff;
+
+  --pride-demiromantic-black: #000000;
+  --pride-demiromantic-white: #ffffff;
+  --pride-demiromantic-green: #338a37;
+  --pride-demiromantic-grey: #d2d2d2;
+
+  --pride-demisexual-black: #000000;
+  --pride-demisexual-white: #ffffff;
+  --pride-demisexual-purple: #6E0070;
+  --pride-demisexual-grey: #d2d2d2;
+
+  --pride-gay-dark-green: #078d70;
+  --pride-gay-teal: #26ceaa;
+  --pride-gay-light-green: #99e8c2;
+  --pride-gay-white: #ffffff;
+  --pride-gay-light-blue: #7bade3;
+  --pride-gay-purple: #5049cb;
+  --pride-gay-indigo: #3e1a78;
+
+  --pride-genderfluid-pink: #ff75a2;
+  --pride-genderfluid-white: #f5f5f5;
+  --pride-genderfluid-purple: #be18d6;
+  --pride-genderfluid-black: #2c2c2c;
+  --pride-genderfluid-blue: #333ebd;
+
+  --pride-genderflux-dark-pink: #f47694;
+  --pride-genderflux-light-pink: #f2a3b9;
+  --pride-genderflux-grey: #cecece;
+  --pride-genderflux-light-blue: #7ce0f7;
+  --pride-genderflux-dark-blue: #3ecdf9;
+  --pride-genderflux-yellow: #fff48e;
+
+  --pride-genderqueer-lavender: #b57edc;
+  --pride-genderqueer-white: #ffffff;
+  --pride-genderqueer-green: #4a8123;
+
+  --pride-grayromantic-purple: #087D16;
+  --pride-grayromantic-grey: #b2b2b2;
+  --pride-grayromantic-white: #ffffff;
+
+  --pride-graysexual-purple: #740195;
+  --pride-graysexual-grey: #b2b2b2;
+  --pride-graysexual-white: #ffffff;
+
+  --pride-intersex-yellow: #ffd800;
+  --pride-intersex-violet: #7902aa;
+
+  --pride-leather-blue: #18186b;
+  --pride-leather-black: #000000;
+  --pride-leather-red: #e70039;
+
+  --pride-gwen-dark-orange: #d52d00;
+  --pride-gwen-orange: #ef7627;
+  --pride-gwen-light-orange: #ff9a56;
+  --pride-gwen-white: #ffffff;
+  --pride-gwen-pink: #d162a4;
+  --pride-gwen-dusty-pink: #b55690;
+  --pride-gwen-dark-rose: #a30262;
+
+  --pride-labrys-violet: #993399;
+  --pride-labrys-black: #000000;
+  --pride-labrys-white: #ffffff;
+
+  --pride-lipstick-dark-pink: #a40061;
+  --pride-lipstick-dusty-pink: #b75592;
+  --pride-lipstick-pink: #d063a6;
+  --pride-lipstick-lavender: #e4accf;
+  --pride-lipstick-white: #ededeb;
+  --pride-lipstick-pale-red: #c54e54;
+  --pride-lipstick-brown: #8a1e04;
+  --pride-lipstick-red: #f30943;
+
+  --pride-maverique-yellow: #fff344;
+  --pride-maverique-white: #ffffff;
+  --pride-maverique-orange: #f49622;
+
+  --pride-nonbinary-yellow: #fff433;
+  --pride-nonbinary-white: #fff8e7;
+  --pride-nonbinary-purple: #9b59d0;
+  --pride-nonbinary-black: #2d2d2d;
+
+  --pride-omnisexual-light-pink: #fc9ccc;
+  --pride-omnisexual-pink: #fc54bc;
+  --pride-omnisexual-black: #240444;
+  --pride-omnisexual-blue: #645cfc;
+  --pride-omnisexual-light-blue: #8ca4fc;
+
+  --pride-pangender-yellow: #fff798;
+  --pride-pangender-orange: #feddcc;
+  --pride-pangender-pink: #ffebfc;
+  --pride-pangender-white: #ffffff;
+
+  --pride-pan-pink: #ff218c;
+  --pride-pan-yellow: #ffd800;
+  --pride-pan-blue: #21b1ff;
+
+  --pride-pansexual-pink: #ff218c;
+  --pride-pansexual-yellow: #ffd800;
+  --pride-pansexual-blue: #21b1ff;
+
+  --pride-evans-blue: #0000ff;
+  --pride-evans-red: #ff0000;
+  --pride-evans-black: #000000;
+  --pride-evans-yellow: #ffff00;
+
+  --pride-howell-white: #ffffff;
+  --pride-howell-gold: #fcbf00;
+  --pride-howell-blue: #009fe3;
+  --pride-howell-magenta: #e50051;
+  --pride-howell-purple: #340c46;
+
+  --pride-polysexual-pink: #f61cb9;
+  --pride-polysexual-green: #07d569;
+  --pride-polysexual-blue: #1c92f6;
+
+  --pride-queer-black: #000000;
+  --pride-queer-light-blue: #99d9ea;
+  --pride-queer-blue: #00a2e8;
+  --pride-queer-green: #b5e61d;
+  --pride-queer-white: #ffffff;
+  --pride-queer-orange: #ffc90e;
+  --pride-queer-dark-pink: #fd6666;
+  --pride-queer-pink: #ffaec9;
+
+  --pride-sapphic-pink: #fd8ba8;
+  --pride-sapphic-white: #ffffff;
+  --pride-sapphic-violet: #c76bc5;
+  --pride-sapphic-yellow: #fff71e;
+  --pride-sapphic-light-pink: #f996c9;
+
+  --pride-transfeminine-blue: #73deff;
+  --pride-transfeminine-light-pink: #ffe0ed;
+  --pride-transfeminine-pink: #ffb5d5;
+  --pride-transfeminine-dark-pink: #ff8cbe;
+
+  --pride-trans-blue: #5bcefa;
+  --pride-trans-pink: #f5a9b8;
+  --pride-trans-white: #ffffff;
+
+  --pride-transgender-blue: #5bcefa;
+  --pride-transgender-pink: #f5a9b8;
+  --pride-transgender-white: #ffffff;
+
+  --pride-transmasculine-pink: #ff8ABD;
+  --pride-transmasculine-sky-blue: #cdf5fe;
+  --pride-transmasculine-light-blue: #9aebff;
+  --pride-transmasculine-blue: #74dfff;
+
+  --pride-xenogender-red: #ff6691;
+  --pride-xenogender-coral: #ff9997;
+  --pride-xenogender-orange: #ffb782;
+  --pride-xenogender-yellow: #fbffa6;
+  --pride-xenogender-blue: #84bbff;
+  --pride-xenogender-violet: #9c84ff;
+  --pride-xenogender-purple: #a317ff;
+  --pride-xenogender-white: #ffffff;
+
+  --pride-disability-charcoal: #585858;
+  --pride-disability-green: #3aaf7d;
+  --pride-disability-blue: #7ac1e0;
+  --pride-disability-grey: #e9e9e9;
+  --pride-disability-yellow: #eedf77;
+  --pride-disability-red: #cf7280;
+
+}
+
+/* baker78 */
+.pride-baker78-hot-pink {
+  color: #000000;
+  color: contrast-color(#ff69b4);
+  background-color: #ff69b4;
+  }
+  
+.pride-baker78-red {
+  color: #ffffff;
+  color: contrast-color(#ff0000);
+  background-color: #ff0000;
+  }
+  
+.pride-baker78-orange {
+  color: #000000;
+  color: contrast-color(#ff8e00);
+  background-color: #ff8e00;
+  }
+  
+.pride-baker78-yellow {
+  color: #000000;
+  color: contrast-color(#ffff00);
+  background-color: #ffff00;
+  }
+  
+.pride-baker78-green {
+  color: #ffffff;
+  color: contrast-color(#008e00);
+  background-color: #008e00;
+  }
+  
+.pride-baker78-turquoise {
+  color: #000000;
+  color: contrast-color(#00c0c0);
+  background-color: #00c0c0;
+  }
+  
+.pride-baker78-indigo {
+  color: #ffffff;
+  color: contrast-color(#400098);
+  background-color: #400098;
+  }
+  
+.pride-baker78-violet {
+  color: #ffffff;
+  color: contrast-color(#8e008e);
+  background-color: #8e008e;
+  }
+  
+
+.pride-baker78-hot-pink-text {
+  color: #ff69b4;
+  }
+  
+.pride-baker78-red-text {
+  color: #ff0000;
+  }
+  
+.pride-baker78-orange-text {
+  color: #ff8e00;
+  }
+  
+.pride-baker78-yellow-text {
+  color: #ffff00;
+  }
+  
+.pride-baker78-green-text {
+  color: #008e00;
+  }
+  
+.pride-baker78-turquoise-text {
+  color: #00c0c0;
+  }
+  
+.pride-baker78-indigo-text {
+  color: #400098;
+  }
+  
+.pride-baker78-violet-text {
+  color: #8e008e;
+  }
+  
+
+
+/* baker */
 .pride-baker-red {
-    color: #ffffff;
-    background-color: #e40303;
-}
+  color: #ffffff;
+  color: contrast-color(#e50000);
+  background-color: #e50000;
+  }
+  
 .pride-baker-orange {
-    color: #ffffff;
-    background-color: #ff8c00;
-}
+  color: #ffffff;
+  color: contrast-color(#ff8d00);
+  background-color: #ff8d00;
+  }
+  
 .pride-baker-yellow {
-    color: #000000;
-    background-color: #ffed00;
-}
+  color: #000000;
+  color: contrast-color(#ffee00);
+  background-color: #ffee00;
+  }
+  
 .pride-baker-green {
-    color: #ffffff;
-    background-color: #008026;
-}
+  color: #ffffff;
+  color: contrast-color(#028121);
+  background-color: #028121;
+  }
+  
 .pride-baker-blue {
-    color: #ffffff;
-    background-color: #004dff;
-}
+  color: #ffffff;
+  color: contrast-color(#004cff);
+  background-color: #004cff;
+  }
+  
 .pride-baker-purple {
-    color: #ffffff;
-    background-color: #750787;
-}
+  color: #ffffff;
+  color: contrast-color(#770088);
+  background-color: #770088;
+  }
+  
 
 .pride-baker-red-text {
-    color: #e40303;
-}
+  color: #e50000;
+  }
+  
 .pride-baker-orange-text {
-    color: #ff8c00;
-}
+  color: #ff8d00;
+  }
+  
 .pride-baker-yellow-text {
-    color: #ffed00;
-}
+  color: #ffee00;
+  }
+  
 .pride-baker-green-text {
-    color: #008026;
-}
+  color: #028121;
+  }
+  
 .pride-baker-blue-text {
-    color: #004dff;
-}
+  color: #004cff;
+  }
+  
 .pride-baker-purple-text {
-    color: #750787;
-}
+  color: #770088;
+  }
+  
 
+
+/* rainbow */
+.pride-rainbow-red {
+  color: #ffffff;
+  color: contrast-color(#e50000);
+  background-color: #e50000;
+  }
+  
+.pride-rainbow-orange {
+  color: #ffffff;
+  color: contrast-color(#ff8d00);
+  background-color: #ff8d00;
+  }
+  
+.pride-rainbow-yellow {
+  color: #000000;
+  color: contrast-color(#ffee00);
+  background-color: #ffee00;
+  }
+  
+.pride-rainbow-green {
+  color: #ffffff;
+  color: contrast-color(#028121);
+  background-color: #028121;
+  }
+  
+.pride-rainbow-blue {
+  color: #ffffff;
+  color: contrast-color(#004cff);
+  background-color: #004cff;
+  }
+  
+.pride-rainbow-purple {
+  color: #ffffff;
+  color: contrast-color(#770088);
+  background-color: #770088;
+  }
+  
+
+.pride-rainbow-red-text {
+  color: #e50000;
+  }
+  
+.pride-rainbow-orange-text {
+  color: #ff8d00;
+  }
+  
+.pride-rainbow-yellow-text {
+  color: #ffee00;
+  }
+  
+.pride-rainbow-green-text {
+  color: #028121;
+  }
+  
+.pride-rainbow-blue-text {
+  color: #004cff;
+  }
+  
+.pride-rainbow-purple-text {
+  color: #770088;
+  }
+  
+
+
+/* progress */
 .pride-progress-red {
-    color: #ffffff;
-    background-color: #e40303
-}
+  color: #ffffff;
+  color: contrast-color(#e40303);
+  background-color: #e40303;
+  }
+  
 .pride-progress-orange {
-    color: #ffffff;
-    background-color: #ff8c00;
-}
+  color: #ffffff;
+  color: contrast-color(#ff8c00);
+  background-color: #ff8c00;
+  }
+  
 .pride-progress-yellow {
-    color: #000000;
-    background-color: #ffed00;
-}
+  color: #000000;
+  color: contrast-color(#ffed00);
+  background-color: #ffed00;
+  }
+  
 .pride-progress-green {
-    color: #ffffff;
-    background-color: #008026;
-}
+  color: #ffffff;
+  color: contrast-color(#008026);
+  background-color: #008026;
+  }
+  
 .pride-progress-blue {
-    color: #ffffff;
-    background-color: #004dff;
-}
+  color: #ffffff;
+  color: contrast-color(#004dff);
+  background-color: #004dff;
+  }
+  
 .pride-progress-purple {
-    color: #ffffff;
-    background-color: #750787;
-}
+  color: #ffffff;
+  color: contrast-color(#750787);
+  background-color: #750787;
+  }
+  
 .pride-progress-white {
-    color: #000000;
-    background-color: #ffffff;
-}
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
 .pride-progress-pink {
-    color: #ffffff;
-    background-color: #ffafc8;
-}
+  color: #ffffff;
+  color: contrast-color(#ffafc8);
+  background-color: #ffafc8;
+  }
+  
 .pride-progress-light-blue {
-    color: #ffffff;
-    background-color: #74d7ee;
-}
+  color: #ffffff;
+  color: contrast-color(#74d7ee);
+  background-color: #74d7ee;
+  }
+  
 .pride-progress-brown {
-    color: #ffffff;
-    background-color: #613915;
-}
+  color: #ffffff;
+  color: contrast-color(#613915);
+  background-color: #613915;
+  }
+  
 .pride-progress-black {
-    color: #ffffff;
-    background-color: #000000;
-}
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
 
 .pride-progress-red-text {
-    color: #e40303;
-}
+  color: #e40303;
+  }
+  
 .pride-progress-orange-text {
-    color: #ff8c00;
-}
+  color: #ff8c00;
+  }
+  
 .pride-progress-yellow-text {
-    color: #ffed00;
-}
+  color: #ffed00;
+  }
+  
 .pride-progress-green-text {
-    color: #008026;
-}
+  color: #008026;
+  }
+  
 .pride-progress-blue-text {
-    color: #004dff;
-}
+  color: #004dff;
+  }
+  
 .pride-progress-purple-text {
-    color: #750787;
-}
+  color: #750787;
+  }
+  
 .pride-progress-white-text {
-    color: #ffffff;
-}
+  color: #ffffff;
+  }
+  
 .pride-progress-pink-text {
-    color: #ffafc8;
-}
+  color: #ffafc8;
+  }
+  
 .pride-progress-light-blue-text {
-    color: #74d7ee;
-}
+  color: #74d7ee;
+  }
+  
 .pride-progress-brown-text {
-    color: #613915;
-}
+  color: #613915;
+  }
+  
 .pride-progress-black-text {
-    color: #000000;
-}
-
-.pride-trans-blue {
-    color: #ffffff;
-    background-color: #5bcefa;
-}
-.pride-trans-pink {
-    color:#ffffff;
-    background-color: #f5a9b8;
-}
-.pride-trans-white {
-    color: #000000;
-    background-color: #ffffff;
-}
-
-.pride-trans-blue-text {
-    color: #5bcefa;
-}
-.pride-trans-pink-text {
-    color:#f5a9b8;
-}
-.pride-trans-white-text {
-    color: #ffffff;
-}
-
-.pride-bi-pink {
-    color: #ffffff;
-    background-color: #d60270;
-}
-.pride-bi-purple {
-    color: #ffffff;
-    background-color: #9b4f96;
-}
-.pride-bi-blue {
-    color: #ffffff;
-    background-color: #0038a8;
-}
-
-.pride-bi-pink-text {
-    color: #d60270;
-}
-.pride-bi-purple-text {
-    color: #9b4f96;
-}
-.pride-bi-blue-text {
-    color: #0038a8;
-}
-
-.pride-pan-pink {
-    color: #ffffff;
-    background-color: #ff218c;
-}
-.pride-pan-yellow {
-    color: #000000;
-    background-color: #ffd800;
-}
-.pride-pan-blue {
-    color: #ffffff;
-    background-color: #21b1ff;
-}
-
-.pride-pan-pink-text {
-    color: #ff218c;
-}
-.pride-pan-yellow-text {
-    color: #ffd800;
-}
-.pride-pan-blue-text {
-    color: #21b1ff;
-}
-
-.pride-labrys-violet {
-    color: #ffffff;
-    background-color: #792491;
-}
-.pride-labrys-black {
-    color: #ffffff;
-    background-color: #000000;
-}
-.pride-labrys-white {
-    color: #000000;
-    background-color: #ffffff;
-}
-
-.pride-labrys-violet-text {
-    color: #792491;
-}
-.pride-labrys-black-text {
-    color: #000000;
-}
-.pride-labrys-white-text {
-    color: #ffffff;
-}
-
-.pride-lipstick-dark-pink {
-    color: #ffffff;
-    background-color: #a40061;
-}
-.pride-lipstick-dusty-pink {
-    color: #ffffff;
-    background-color: #b75592;
-}
-.pride-lipstick-pink {
-    color: #000000;
-    background-color: #d063a6;
-}
-.pride-lipstick-lavender {
-    color: #000000;
-    background-color: #e4accf;
-}
-.pride-lipstick-white {
-    color: #000000;
-    background-color: #ffffff;
-}
-.pride-lipstick-pale-red {
-    color: #ffffff;
-    background-color: #c54e54;
-}
-.pride-lipstick-brown {
-    color: #ffffff;
-    background-color: #8a1e04;
-}
-.pride-lipstick-red {
-    color: #ffffff;
-    background-color: #eb1449;
-}
+  color: #000000;
+  }
+  
 
 
-.pride-lipstick-dark-pink-text {
-    color: #ffffff;
-    background-color: #a40061;
-}
-.pride-lipstick-dusty-pink-text {
-    color: #b75592;
-}
-.pride-lipstick-pink-text {
-    color: #d063a6;
-}
-.pride-lipstick-lavender-text {
-    color: #e4accf;
-}
-.pride-lipstick-white-text {
-    color: #ffffff;
-}
-.pride-lipstick-pale-red-text {
-    color: #c54e54;
-}
-.pride-lipstick-brown-text {
-    color: #8a1e04;
-}
-.pride-lipstick-red-text {
-    color: #eb1449;
-}
+/* aceflux */
+.pride-aceflux-rose {
+  color: #ffffff;
+  color: contrast-color(#c62253);
+  background-color: #c62253;
+  }
+  
+.pride-aceflux-magenta {
+  color: #ffffff;
+  color: contrast-color(#c12678);
+  background-color: #c12678;
+  }
+  
+.pride-aceflux-fuchsia {
+  color: #ffffff;
+  color: contrast-color(#c0279a);
+  background-color: #c0279a;
+  }
+  
+.pride-aceflux-violet {
+  color: #ffffff;
+  color: contrast-color(#a928ac);
+  background-color: #a928ac;
+  }
+  
+.pride-aceflux-orchid {
+  color: #ffffff;
+  color: contrast-color(#8c26ae);
+  background-color: #8c26ae;
+  }
+  
+
+.pride-aceflux-rose-text {
+  color: #c62253;
+  }
+  
+.pride-aceflux-magenta-text {
+  color: #c12678;
+  }
+  
+.pride-aceflux-fuchsia-text {
+  color: #c0279a;
+  }
+  
+.pride-aceflux-violet-text {
+  color: #a928ac;
+  }
+  
+.pride-aceflux-orchid-text {
+  color: #8c26ae;
+  }
+  
 
 
-.pride-gwen-dark-orange {
-    color: #ffffff;
-    background-color: #d52d00;
-}
-.pride-gwen-orange {
-    color: #ffffff;
-    background-color: #ef7627;
-}
-.pride-gwen-light-orange {
-    color: #ffffff;
-    background-color: #ff9a56;
-}
-.pride-gwen-white {
-    color: #000000;
-    background-color: #ffffff;
-}
-.pride-gwen-pink {
-    color: #ffffff;
-    background-color: #d162a4;
-}
-.pride-gwen-dusty-pink {
-    color: #ffffff;
-    background-color: #b55690;
-}
-.pride-gwen-dark-rose {
-    color: #ffffff;
-    background-color: #a30262;
-}
+/* achillean */
+.pride-achillean-blue {
+  color: #000000;
+  color: contrast-color(#99c6ea);
+  background-color: #99c6ea;
+  }
+  
+.pride-achillean-cream {
+  color: #000000;
+  color: contrast-color(#f9fdea);
+  background-color: #f9fdea;
+  }
+  
+.pride-achillean-light-green {
+  color: #000000;
+  color: contrast-color(#acdd4d);
+  background-color: #acdd4d;
+  }
+  
+.pride-achillean-dark-green {
+  color: #000000;
+  color: contrast-color(#659533);
+  background-color: #659533;
+  }
+  
 
-.pride-gwen-dark-orange-text {
-    color: #d52d00;
-}
-.pride-gwen-orange-text{
-    color: #ef7627;
-}
-.pride-gwen-light-orange-text {
-    color: #ff9a56;
-}
-.pride-gwen-white-text{
-    color: #ffffff;
-}
-.pride-gwen-pink-text {
-    color: #d162a4;
-}
-.pride-gwen-dusty-pink-text {
-    color: #b55690;
-}
-.pride-gwen-dark-rose-text {
-    color: #a30262;
-}
+.pride-achillean-blue-text {
+  color: #99c6ea;
+  }
+  
+.pride-achillean-cream-text {
+  color: #f9fdea;
+  }
+  
+.pride-achillean-light-green-text {
+  color: #acdd4d;
+  }
+  
+.pride-achillean-dark-green-text {
+  color: #659533;
+  }
+  
 
-.pride-intersex-yellow {
-    color: #000000;
-    background-color: #ffd800;
-}
-.pride-intersex-violet {
-    color: #ffffff;
-    background-color: #7902aa;
-}
 
-.pride-intersex-yellow-text {
-    color: #ffd800;
-}
-.pride-intersex-violet-text {
-    color: #7902aa;
-}
+/* abrosexual */
+.pride-abrosexual-dark-green {
+  color: #000000;
+  color: contrast-color(#65c286);
+  background-color: #65c286;
+  }
+  
+.pride-abrosexual-light-green {
+  color: #000000;
+  color: contrast-color(#b4e4cc);
+  background-color: #b4e4cc;
+  }
+  
+.pride-abrosexual-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-abrosexual-light-pink {
+  color: #000000;
+  color: contrast-color(#e796b7);
+  background-color: #e796b7;
+  }
+  
+.pride-abrosexual-dark-pink {
+  color: #ffffff;
+  color: contrast-color(#d9446e);
+  background-color: #d9446e;
+  }
+  
 
+.pride-abrosexual-dark-green-text {
+  color: #65c286;
+  }
+  
+.pride-abrosexual-light-green-text {
+  color: #b4e4cc;
+  }
+  
+.pride-abrosexual-white-text {
+  color: #ffffff;
+  }
+  
+.pride-abrosexual-light-pink-text {
+  color: #e796b7;
+  }
+  
+.pride-abrosexual-dark-pink-text {
+  color: #d9446e;
+  }
+  
+
+
+/* agender */
+.pride-agender-black {
+  color: #ffffff;
+  color: contrast-color(#010204);
+  background-color: #010204;
+  }
+  
+.pride-agender-grey {
+  color: #000000;
+  color: contrast-color(#bcc4c6);
+  background-color: #bcc4c6;
+  }
+  
+.pride-agender-white {
+  color: #000000;
+  color: contrast-color(#e9edee);
+  background-color: #e9edee;
+  }
+  
+.pride-agender-green {
+  color: #000000;
+  color: contrast-color(#b8f483);
+  background-color: #b8f483;
+  }
+  
+
+.pride-agender-black-text {
+  color: #010204;
+  }
+  
+.pride-agender-grey-text {
+  color: #bcc4c6;
+  }
+  
+.pride-agender-white-text {
+  color: #e9edee;
+  }
+  
+.pride-agender-green-text {
+  color: #b8f483;
+  }
+  
+
+
+/* aroace */
+.pride-aroace-orange {
+  color: #000000;
+  color: contrast-color(#e28c00);
+  background-color: #e28c00;
+  }
+  
+.pride-aroace-yellow {
+  color: #000000;
+  color: contrast-color(#eccd00);
+  background-color: #eccd00;
+  }
+  
+.pride-aroace-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-aroace-light-blue {
+  color: #000000;
+  color: contrast-color(#62aedc);
+  background-color: #62aedc;
+  }
+  
+.pride-aroace-dark-blue {
+  color: #ffffff;
+  color: contrast-color(#203856);
+  background-color: #203856;
+  }
+  
+
+.pride-aroace-orange-text {
+  color: #e28c00;
+  }
+  
+.pride-aroace-yellow-text {
+  color: #eccd00;
+  }
+  
+.pride-aroace-white-text {
+  color: #ffffff;
+  }
+  
+.pride-aroace-light-blue-text {
+  color: #62aedc;
+  }
+  
+.pride-aroace-dark-blue-text {
+  color: #203856;
+  }
+  
+
+
+/* aro */
+.pride-aro-green {
+  color: #ffffff;
+  color: contrast-color(#3da542);
+  background-color: #3da542;
+  }
+  
+.pride-aro-light-green {
+  color: #000000;
+  color: contrast-color(#a7d379);
+  background-color: #a7d379;
+  }
+  
+.pride-aro-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-aro-grey {
+  color: #000000;
+  color: contrast-color(#a9a9a9);
+  background-color: #a9a9a9;
+  }
+  
+.pride-aro-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+
+.pride-aro-green-text {
+  color: #3da542;
+  }
+  
+.pride-aro-light-green-text {
+  color: #a7d379;
+  }
+  
+.pride-aro-white-text {
+  color: #ffffff;
+  }
+  
+.pride-aro-grey-text {
+  color: #a9a9a9;
+  }
+  
+.pride-aro-black-text {
+  color: #000000;
+  }
+  
+
+
+/* aromantic */
+.pride-aromantic-green {
+  color: #ffffff;
+  color: contrast-color(#3da542);
+  background-color: #3da542;
+  }
+  
+.pride-aromantic-light-green {
+  color: #000000;
+  color: contrast-color(#a7d379);
+  background-color: #a7d379;
+  }
+  
+.pride-aromantic-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-aromantic-grey {
+  color: #000000;
+  color: contrast-color(#a9a9a9);
+  background-color: #a9a9a9;
+  }
+  
+.pride-aromantic-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+
+.pride-aromantic-green-text {
+  color: #3da542;
+  }
+  
+.pride-aromantic-light-green-text {
+  color: #a7d379;
+  }
+  
+.pride-aromantic-white-text {
+  color: #ffffff;
+  }
+  
+.pride-aromantic-grey-text {
+  color: #a9a9a9;
+  }
+  
+.pride-aromantic-black-text {
+  color: #000000;
+  }
+  
+
+
+/* ace */
 .pride-ace-black {
-    color: #ffffff;
-    background-color: #000000;
-}
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
 .pride-ace-grey {
-    color: #ffffff;
-    background-color: #a3a3a3;
-}
+  color: #000000;
+  color: contrast-color(#a3a3a3);
+  background-color: #a3a3a3;
+  }
+  
 .pride-ace-white {
-    color: #000000;
-    background-color: #ffffff;
-}
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
 .pride-ace-purple {
-    color: #ffffff;
-    background-color: #800080;
-}
+  color: #ffffff;
+  color: contrast-color(#800080);
+  background-color: #800080;
+  }
+  
 
 .pride-ace-black-text {
-    color: #000000;
-}
+  color: #000000;
+  }
+  
 .pride-ace-grey-text {
-    color: #a3a3a3;
-}
+  color: #a3a3a3;
+  }
+  
 .pride-ace-white-text {
-    color: #ffffff;
-}
+  color: #ffffff;
+  }
+  
 .pride-ace-purple-text {
-    color: #800080;
-}
+  color: #800080;
+  }
+  
 
-.pride-aro-green {
-    color: #ffffff;
-    background-color: #3da542;
-}
-.pride-aro-light-green {
-    color: #ffffff;
-    background-color: #a7d379;
-}
-.pride-aro-white {
-    color: #000000;
-    background-color: #ffffff;
-}
-.pride-aro-grey {
-    color: #ffffff;
-    background-color: #a9a9a9;
-}
-.pride-aro-black {
-    color: #ffffff;
-    background-color: #000000;
-}
-.pride-aro-green-text {
-    color: #3da542;
-}
-.pride-aro-light-green-text {
-    color: #a7d379;
-}
 
-.pride-aro-white-text {
-    color: #ffffff;
-}
-.pride-aro-grey-text {
-    color: #a9a9a9;
-}
-.pride-aro-black-text {
-    color: #000000;
-}
+/* asexual */
+.pride-asexual-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-asexual-grey {
+  color: #000000;
+  color: contrast-color(#a3a3a3);
+  background-color: #a3a3a3;
+  }
+  
+.pride-asexual-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-asexual-purple {
+  color: #ffffff;
+  color: contrast-color(#800080);
+  background-color: #800080;
+  }
+  
 
+.pride-asexual-black-text {
+  color: #000000;
+  }
+  
+.pride-asexual-grey-text {
+  color: #a3a3a3;
+  }
+  
+.pride-asexual-white-text {
+  color: #ffffff;
+  }
+  
+.pride-asexual-purple-text {
+  color: #800080;
+  }
+  
+
+
+/* bear */
+.pride-bear-dark-brown {
+  color: #ffffff;
+  color: contrast-color(#623804);
+  background-color: #623804;
+  }
+  
+.pride-bear-orange {
+  color: #000000;
+  color: contrast-color(#d56300);
+  background-color: #d56300;
+  }
+  
+.pride-bear-golden-yellow {
+  color: #000000;
+  color: contrast-color(#fedd63);
+  background-color: #fedd63;
+  }
+  
+.pride-bear-tan {
+  color: #000000;
+  color: contrast-color(#fee6b8);
+  background-color: #fee6b8;
+  }
+  
+.pride-bear-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-bear-grey {
+  color: #ffffff;
+  color: contrast-color(#555555);
+  background-color: #555555;
+  }
+  
+.pride-bear-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+
+.pride-bear-dark-brown-text {
+  color: #623804;
+  }
+  
+.pride-bear-orange-text {
+  color: #d56300;
+  }
+  
+.pride-bear-golden-yellow-text {
+  color: #fedd63;
+  }
+  
+.pride-bear-tan-text {
+  color: #fee6b8;
+  }
+  
+.pride-bear-white-text {
+  color: #ffffff;
+  }
+  
+.pride-bear-grey-text {
+  color: #555555;
+  }
+  
+.pride-bear-black-text {
+  color: #000000;
+  }
+  
+
+
+/* bigender */
+.pride-bigender-pink {
+  color: #ffffff;
+  color: contrast-color(#c479a2);
+  background-color: #c479a2;
+  }
+  
+.pride-bigender-light-pink {
+  color: #ffffff;
+  color: contrast-color(#eda5cd);
+  background-color: #eda5cd;
+  }
+  
+.pride-bigender-purple {
+  color: #ffffff;
+  color: contrast-color(#d6c7e8);
+  background-color: #d6c7e8;
+  }
+  
+.pride-bigender-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-bigender-light-blue {
+  color: #000000;
+  color: contrast-color(#9ac7e8);
+  background-color: #9ac7e8;
+  }
+  
+.pride-bigender-blue {
+  color: #ffffff;
+  color: contrast-color(#6d82d1);
+  background-color: #6d82d1;
+  }
+  
+
+.pride-bigender-pink-text {
+  color: #c479a2;
+  }
+  
+.pride-bigender-light-pink-text {
+  color: #eda5cd;
+  }
+  
+.pride-bigender-purple-text {
+  color: #d6c7e8;
+  }
+  
+.pride-bigender-white-text {
+  color: #ffffff;
+  }
+  
+.pride-bigender-light-blue-text {
+  color: #9ac7e8;
+  }
+  
+.pride-bigender-blue-text {
+  color: #6d82d1;
+  }
+  
+
+
+/* bi */
+.pride-bi-pink {
+  color: #ffffff;
+  color: contrast-color(#d0006f);
+  background-color: #d0006f;
+  }
+  
+.pride-bi-purple {
+  color: #ffffff;
+  color: contrast-color(#8c4799);
+  background-color: #8c4799;
+  }
+  
+.pride-bi-blue {
+  color: #ffffff;
+  color: contrast-color(#0033a0);
+  background-color: #0033a0;
+  }
+  
+
+.pride-bi-pink-text {
+  color: #d0006f;
+  }
+  
+.pride-bi-purple-text {
+  color: #8c4799;
+  }
+  
+.pride-bi-blue-text {
+  color: #0033a0;
+  }
+  
+
+
+/* bisexual */
+.pride-bisexual-pink {
+  color: #ffffff;
+  color: contrast-color(#d0006f);
+  background-color: #d0006f;
+  }
+  
+.pride-bisexual-purple {
+  color: #ffffff;
+  color: contrast-color(#8c4799);
+  background-color: #8c4799;
+  }
+  
+.pride-bisexual-blue {
+  color: #ffffff;
+  color: contrast-color(#0033a0);
+  background-color: #0033a0;
+  }
+  
+
+.pride-bisexual-pink-text {
+  color: #d0006f;
+  }
+  
+.pride-bisexual-purple-text {
+  color: #8c4799;
+  }
+  
+.pride-bisexual-blue-text {
+  color: #0033a0;
+  }
+  
+
+
+/* demiboy */
+.pride-demiboy-dark-grey {
+  color: #ffffff;
+  color: contrast-color(#7f7f7f);
+  background-color: #7f7f7f;
+  }
+  
+.pride-demiboy-light-grey {
+  color: #ffffff;
+  color: contrast-color(#c4c4c4);
+  background-color: #c4c4c4;
+  }
+  
+.pride-demiboy-blue {
+  color: #ffffff;
+  color: contrast-color(#9ad9eb);
+  background-color: #9ad9eb;
+  }
+  
+.pride-demiboy-white {
+  color: #ffffff;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-demiboy-dark-grey-text {
+  color: #7f7f7f;
+  }
+  
+.pride-demiboy-light-grey-text {
+  color: #c4c4c4;
+  }
+  
+.pride-demiboy-blue-text {
+  color: #9ad9eb;
+  }
+  
+.pride-demiboy-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* demigirl */
+.pride-demigirl-dark-grey {
+  color: #ffffff;
+  color: contrast-color(#7f7f7f);
+  background-color: #7f7f7f;
+  }
+  
+.pride-demigirl-light-grey {
+  color: #ffffff;
+  color: contrast-color(#c4c4c4);
+  background-color: #c4c4c4;
+  }
+  
+.pride-demigirl-pink {
+  color: #ffffff;
+  color: contrast-color(#ffaec9);
+  background-color: #ffaec9;
+  }
+  
+.pride-demigirl-white {
+  color: #ffffff;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-demigirl-dark-grey-text {
+  color: #7f7f7f;
+  }
+  
+.pride-demigirl-light-grey-text {
+  color: #c4c4c4;
+  }
+  
+.pride-demigirl-pink-text {
+  color: #ffaec9;
+  }
+  
+.pride-demigirl-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* demiromantic */
+.pride-demiromantic-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-demiromantic-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-demiromantic-green {
+  color: #000000;
+  color: contrast-color(#338a37);
+  background-color: #338a37;
+  }
+  
+.pride-demiromantic-grey {
+  color: #000000;
+  color: contrast-color(#d2d2d2);
+  background-color: #d2d2d2;
+  }
+  
+
+.pride-demiromantic-black-text {
+  color: #000000;
+  }
+  
+.pride-demiromantic-white-text {
+  color: #ffffff;
+  }
+  
+.pride-demiromantic-green-text {
+  color: #338a37;
+  }
+  
+.pride-demiromantic-grey-text {
+  color: #d2d2d2;
+  }
+  
+
+
+/* demisexual */
+.pride-demisexual-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-demisexual-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-demisexual-purple {
+  color: #ffffff;
+  color: contrast-color(#6E0070);
+  background-color: #6E0070;
+  }
+  
+.pride-demisexual-grey {
+  color: #000000;
+  color: contrast-color(#d2d2d2);
+  background-color: #d2d2d2;
+  }
+  
+
+.pride-demisexual-black-text {
+  color: #000000;
+  }
+  
+.pride-demisexual-white-text {
+  color: #ffffff;
+  }
+  
+.pride-demisexual-purple-text {
+  color: #6E0070;
+  }
+  
+.pride-demisexual-grey-text {
+  color: #d2d2d2;
+  }
+  
+
+
+/* gay */
+.pride-gay-dark-green {
+  color: #ffffff;
+  color: contrast-color(#078d70);
+  background-color: #078d70;
+  }
+  
+.pride-gay-teal {
+  color: #000000;
+  color: contrast-color(#26ceaa);
+  background-color: #26ceaa;
+  }
+  
+.pride-gay-light-green {
+  color: #000000;
+  color: contrast-color(#99e8c2);
+  background-color: #99e8c2;
+  }
+  
+.pride-gay-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-gay-light-blue {
+  color: #ffffff;
+  color: contrast-color(#7bade3);
+  background-color: #7bade3;
+  }
+  
+.pride-gay-purple {
+  color: #ffffff;
+  color: contrast-color(#5049cb);
+  background-color: #5049cb;
+  }
+  
+.pride-gay-indigo {
+  color: #ffffff;
+  color: contrast-color(#3e1a78);
+  background-color: #3e1a78;
+  }
+  
+
+.pride-gay-dark-green-text {
+  color: #078d70;
+  }
+  
+.pride-gay-teal-text {
+  color: #26ceaa;
+  }
+  
+.pride-gay-light-green-text {
+  color: #99e8c2;
+  }
+  
+.pride-gay-white-text {
+  color: #ffffff;
+  }
+  
+.pride-gay-light-blue-text {
+  color: #7bade3;
+  }
+  
+.pride-gay-purple-text {
+  color: #5049cb;
+  }
+  
+.pride-gay-indigo-text {
+  color: #3e1a78;
+  }
+  
+
+
+/* genderfluid */
 .pride-genderfluid-pink {
-    color: #ffffff;
-    background-color: #ff76a4;
-}
+  color: #000000;
+  color: contrast-color(#ff75a2);
+  background-color: #ff75a2;
+  }
+  
 .pride-genderfluid-white {
-    color: #000000;
-    background-color: #ffffff;
-}
+  color: #000000;
+  color: contrast-color(#f5f5f5);
+  background-color: #f5f5f5;
+  }
+  
 .pride-genderfluid-purple {
-    color: #ffffff;
-    background-color: #c011d7;
-}
+  color: #ffffff;
+  color: contrast-color(#be18d6);
+  background-color: #be18d6;
+  }
+  
 .pride-genderfluid-black {
-    color: #ffffff;
-    background-color: #000000;
-}
+  color: #ffffff;
+  color: contrast-color(#2c2c2c);
+  background-color: #2c2c2c;
+  }
+  
 .pride-genderfluid-blue {
-    color: #ffffff;
-    background-color: #2f3cbe;
-}
+  color: #ffffff;
+  color: contrast-color(#333ebd);
+  background-color: #333ebd;
+  }
+  
 
 .pride-genderfluid-pink-text {
-    color: #ff76a4;
-}
+  color: #ff75a2;
+  }
+  
 .pride-genderfluid-white-text {
-    color: #ffffff;
-}
+  color: #f5f5f5;
+  }
+  
 .pride-genderfluid-purple-text {
-    color: #c011d7;
-}
+  color: #be18d6;
+  }
+  
 .pride-genderfluid-black-text {
-    color: #000000;
-}
+  color: #2c2c2c;
+  }
+  
 .pride-genderfluid-blue-text {
-    color: #2f3cbe;
-}
+  color: #333ebd;
+  }
+  
 
-.pride-polysexual-pink {
-    color: #ffffff;
-    background-color: #f714ba;
-}
-.pride-polysexual-green {
-    color: #ffffff;
-    background-color: #01d66a;
-}
-.pride-polysexual-blue {
-    color: #ffffff;
-    background-color: #1594f6;
-}
 
-.pride-polysexual-pink-text {
-    color: #f714ba;
-}
-.pride-polysexual-green-text {
-    color: #01d66a;
-}
-.pride-polysexual-blue-text {
-    color: #1594f6;
-}
+/* genderflux */
+.pride-genderflux-dark-pink {
+  color: #000000;
+  color: contrast-color(#f47694);
+  background-color: #f47694;
+  }
+  
+.pride-genderflux-light-pink {
+  color: #000000;
+  color: contrast-color(#f2a3b9);
+  background-color: #f2a3b9;
+  }
+  
+.pride-genderflux-grey {
+  color: #000000;
+  color: contrast-color(#cecece);
+  background-color: #cecece;
+  }
+  
+.pride-genderflux-light-blue {
+  color: #000000;
+  color: contrast-color(#7ce0f7);
+  background-color: #7ce0f7;
+  }
+  
+.pride-genderflux-dark-blue {
+  color: #000000;
+  color: contrast-color(#3ecdf9);
+  background-color: #3ecdf9;
+  }
+  
+.pride-genderflux-yellow {
+  color: #000000;
+  color: contrast-color(#fff48e);
+  background-color: #fff48e;
+  }
+  
 
+.pride-genderflux-dark-pink-text {
+  color: #f47694;
+  }
+  
+.pride-genderflux-light-pink-text {
+  color: #f2a3b9;
+  }
+  
+.pride-genderflux-grey-text {
+  color: #cecece;
+  }
+  
+.pride-genderflux-light-blue-text {
+  color: #7ce0f7;
+  }
+  
+.pride-genderflux-dark-blue-text {
+  color: #3ecdf9;
+  }
+  
+.pride-genderflux-yellow-text {
+  color: #fff48e;
+  }
+  
+
+
+/* genderqueer */
 .pride-genderqueer-lavender {
-    color: #ffffff;
-    background-color: #b57edc;
-}
+  color: #ffffff;
+  color: contrast-color(#b57edc);
+  background-color: #b57edc;
+  }
+  
 .pride-genderqueer-white {
-    color: #000000;
-    background-color: #ffffff;
-}
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
 .pride-genderqueer-green {
-    color: #ffffff;
-    background-color: #4a8123;
-}
+  color: #ffffff;
+  color: contrast-color(#4a8123);
+  background-color: #4a8123;
+  }
+  
 
 .pride-genderqueer-lavender-text {
-    color: #b57edc;
-}
+  color: #b57edc;
+  }
+  
 .pride-genderqueer-white-text {
-    color: #ffffff;
-}
+  color: #ffffff;
+  }
+  
 .pride-genderqueer-green-text {
-    color: #4a8123;
-}
+  color: #4a8123;
+  }
+  
 
+
+/* grayromantic */
+.pride-grayromantic-purple {
+  color: #ffffff;
+  color: contrast-color(#087D16);
+  background-color: #087D16;
+  }
+  
+.pride-grayromantic-grey {
+  color: #000000;
+  color: contrast-color(#b2b2b2);
+  background-color: #b2b2b2;
+  }
+  
+.pride-grayromantic-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-grayromantic-purple-text {
+  color: #087D16;
+  }
+  
+.pride-grayromantic-grey-text {
+  color: #b2b2b2;
+  }
+  
+.pride-grayromantic-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* graysexual */
+.pride-graysexual-purple {
+  color: #ffffff;
+  color: contrast-color(#740195);
+  background-color: #740195;
+  }
+  
+.pride-graysexual-grey {
+  color: #000000;
+  color: contrast-color(#b2b2b2);
+  background-color: #b2b2b2;
+  }
+  
+.pride-graysexual-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-graysexual-purple-text {
+  color: #740195;
+  }
+  
+.pride-graysexual-grey-text {
+  color: #b2b2b2;
+  }
+  
+.pride-graysexual-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* intersex */
+.pride-intersex-yellow {
+  color: #000000;
+  color: contrast-color(#ffd800);
+  background-color: #ffd800;
+  }
+  
+.pride-intersex-violet {
+  color: #ffffff;
+  color: contrast-color(#7902aa);
+  background-color: #7902aa;
+  }
+  
+
+.pride-intersex-yellow-text {
+  color: #ffd800;
+  }
+  
+.pride-intersex-violet-text {
+  color: #7902aa;
+  }
+  
+
+
+/* leather */
+.pride-leather-blue {
+  color: #ffffff;
+  color: contrast-color(#18186b);
+  background-color: #18186b;
+  }
+  
+.pride-leather-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-leather-red {
+  color: #ffffff;
+  color: contrast-color(#e70039);
+  background-color: #e70039;
+  }
+  
+
+.pride-leather-blue-text {
+  color: #18186b;
+  }
+  
+.pride-leather-black-text {
+  color: #000000;
+  }
+  
+.pride-leather-red-text {
+  color: #e70039;
+  }
+  
+
+
+/* gwen */
+.pride-gwen-dark-orange {
+  color: #ffffff;
+  color: contrast-color(#d52d00);
+  background-color: #d52d00;
+  }
+  
+.pride-gwen-orange {
+  color: #ffffff;
+  color: contrast-color(#ef7627);
+  background-color: #ef7627;
+  }
+  
+.pride-gwen-light-orange {
+  color: #ffffff;
+  color: contrast-color(#ff9a56);
+  background-color: #ff9a56;
+  }
+  
+.pride-gwen-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-gwen-pink {
+  color: #ffffff;
+  color: contrast-color(#d162a4);
+  background-color: #d162a4;
+  }
+  
+.pride-gwen-dusty-pink {
+  color: #ffffff;
+  color: contrast-color(#b55690);
+  background-color: #b55690;
+  }
+  
+.pride-gwen-dark-rose {
+  color: #ffffff;
+  color: contrast-color(#a30262);
+  background-color: #a30262;
+  }
+  
+
+.pride-gwen-dark-orange-text {
+  color: #d52d00;
+  }
+  
+.pride-gwen-orange-text {
+  color: #ef7627;
+  }
+  
+.pride-gwen-light-orange-text {
+  color: #ff9a56;
+  }
+  
+.pride-gwen-white-text {
+  color: #ffffff;
+  }
+  
+.pride-gwen-pink-text {
+  color: #d162a4;
+  }
+  
+.pride-gwen-dusty-pink-text {
+  color: #b55690;
+  }
+  
+.pride-gwen-dark-rose-text {
+  color: #a30262;
+  }
+  
+
+
+/* labrys */
+.pride-labrys-violet {
+  color: #ffffff;
+  color: contrast-color(#993399);
+  background-color: #993399;
+  }
+  
+.pride-labrys-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-labrys-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-labrys-violet-text {
+  color: #993399;
+  }
+  
+.pride-labrys-black-text {
+  color: #000000;
+  }
+  
+.pride-labrys-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* lipstick */
+.pride-lipstick-dark-pink {
+  color: #ffffff;
+  color: contrast-color(#a40061);
+  background-color: #a40061;
+  }
+  
+.pride-lipstick-dusty-pink {
+  color: #000000;
+  color: contrast-color(#b75592);
+  background-color: #b75592;
+  }
+  
+.pride-lipstick-pink {
+  color: #000000;
+  color: contrast-color(#d063a6);
+  background-color: #d063a6;
+  }
+  
+.pride-lipstick-lavender {
+  color: #000000;
+  color: contrast-color(#e4accf);
+  background-color: #e4accf;
+  }
+  
+.pride-lipstick-white {
+  color: #000000;
+  color: contrast-color(#ededeb);
+  background-color: #ededeb;
+  }
+  
+.pride-lipstick-pale-red {
+  color: #000000;
+  color: contrast-color(#c54e54);
+  background-color: #c54e54;
+  }
+  
+.pride-lipstick-brown {
+  color: #ffffff;
+  color: contrast-color(#8a1e04);
+  background-color: #8a1e04;
+  }
+  
+.pride-lipstick-red {
+  color: #000000;
+  color: contrast-color(#f30943);
+  background-color: #f30943;
+  }
+  
+
+.pride-lipstick-dark-pink-text {
+  color: #a40061;
+  }
+  
+.pride-lipstick-dusty-pink-text {
+  color: #b75592;
+  }
+  
+.pride-lipstick-pink-text {
+  color: #d063a6;
+  }
+  
+.pride-lipstick-lavender-text {
+  color: #e4accf;
+  }
+  
+.pride-lipstick-white-text {
+  color: #ededeb;
+  }
+  
+.pride-lipstick-pale-red-text {
+  color: #c54e54;
+  }
+  
+.pride-lipstick-brown-text {
+  color: #8a1e04;
+  }
+  
+.pride-lipstick-red-text {
+  color: #f30943;
+  }
+  
+
+
+/* maverique */
+.pride-maverique-yellow {
+  color: #000000;
+  color: contrast-color(#fff344);
+  background-color: #fff344;
+  }
+  
+.pride-maverique-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-maverique-orange {
+  color: #000000;
+  color: contrast-color(#f49622);
+  background-color: #f49622;
+  }
+  
+
+.pride-maverique-yellow-text {
+  color: #fff344;
+  }
+  
+.pride-maverique-white-text {
+  color: #ffffff;
+  }
+  
+.pride-maverique-orange-text {
+  color: #f49622;
+  }
+  
+
+
+/* nonbinary */
 .pride-nonbinary-yellow {
-    color: #000000;
-    background-color: #fcf434;
-}
+  color: #000000;
+  color: contrast-color(#fff433);
+  background-color: #fff433;
+  }
+  
 .pride-nonbinary-white {
-    color: #000000;
-    background-color: #ffffff;
-}
+  color: #000000;
+  color: contrast-color(#fff8e7);
+  background-color: #fff8e7;
+  }
+  
 .pride-nonbinary-purple {
-    color: #ffffff;
-    background-color: #9c59d1;
-}
+  color: #ffffff;
+  color: contrast-color(#9b59d0);
+  background-color: #9b59d0;
+  }
+  
 .pride-nonbinary-black {
-    color: #ffffff;
-    background-color: #2c2c2c;
-}
+  color: #ffffff;
+  color: contrast-color(#2d2d2d);
+  background-color: #2d2d2d;
+  }
+  
 
 .pride-nonbinary-yellow-text {
-    color: #fcf434;
-}
+  color: #fff433;
+  }
+  
 .pride-nonbinary-white-text {
-    color: #ffffff;
-}
+  color: #fff8e7;
+  }
+  
 .pride-nonbinary-purple-text {
-    color: #9c59d1;
-}
+  color: #9b59d0;
+  }
+  
 .pride-nonbinary-black-text {
-    color: #2c2c2c;
-}
+  color: #2d2d2d;
+  }
+  
+
+
+/* omnisexual */
+.pride-omnisexual-light-pink {
+  color: #000000;
+  color: contrast-color(#fc9ccc);
+  background-color: #fc9ccc;
+  }
+  
+.pride-omnisexual-pink {
+  color: #000000;
+  color: contrast-color(#fc54bc);
+  background-color: #fc54bc;
+  }
+  
+.pride-omnisexual-black {
+  color: #ffffff;
+  color: contrast-color(#240444);
+  background-color: #240444;
+  }
+  
+.pride-omnisexual-blue {
+  color: #ffffff;
+  color: contrast-color(#645cfc);
+  background-color: #645cfc;
+  }
+  
+.pride-omnisexual-light-blue {
+  color: #000000;
+  color: contrast-color(#8ca4fc);
+  background-color: #8ca4fc;
+  }
+  
+
+.pride-omnisexual-light-pink-text {
+  color: #fc9ccc;
+  }
+  
+.pride-omnisexual-pink-text {
+  color: #fc54bc;
+  }
+  
+.pride-omnisexual-black-text {
+  color: #240444;
+  }
+  
+.pride-omnisexual-blue-text {
+  color: #645cfc;
+  }
+  
+.pride-omnisexual-light-blue-text {
+  color: #8ca4fc;
+  }
+  
+
+
+/* pangender */
+.pride-pangender-yellow {
+  color: #000000;
+  color: contrast-color(#fff798);
+  background-color: #fff798;
+  }
+  
+.pride-pangender-orange {
+  color: #000000;
+  color: contrast-color(#feddcc);
+  background-color: #feddcc;
+  }
+  
+.pride-pangender-pink {
+  color: #000000;
+  color: contrast-color(#ffebfc);
+  background-color: #ffebfc;
+  }
+  
+.pride-pangender-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-pangender-yellow-text {
+  color: #fff798;
+  }
+  
+.pride-pangender-orange-text {
+  color: #feddcc;
+  }
+  
+.pride-pangender-pink-text {
+  color: #ffebfc;
+  }
+  
+.pride-pangender-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* pan */
+.pride-pan-pink {
+  color: #ffffff;
+  color: contrast-color(#ff218c);
+  background-color: #ff218c;
+  }
+  
+.pride-pan-yellow {
+  color: #000000;
+  color: contrast-color(#ffd800);
+  background-color: #ffd800;
+  }
+  
+.pride-pan-blue {
+  color: #ffffff;
+  color: contrast-color(#21b1ff);
+  background-color: #21b1ff;
+  }
+  
+
+.pride-pan-pink-text {
+  color: #ff218c;
+  }
+  
+.pride-pan-yellow-text {
+  color: #ffd800;
+  }
+  
+.pride-pan-blue-text {
+  color: #21b1ff;
+  }
+  
+
+
+/* pansexual */
+.pride-pansexual-pink {
+  color: #ffffff;
+  color: contrast-color(#ff218c);
+  background-color: #ff218c;
+  }
+  
+.pride-pansexual-yellow {
+  color: #000000;
+  color: contrast-color(#ffd800);
+  background-color: #ffd800;
+  }
+  
+.pride-pansexual-blue {
+  color: #ffffff;
+  color: contrast-color(#21b1ff);
+  background-color: #21b1ff;
+  }
+  
+
+.pride-pansexual-pink-text {
+  color: #ff218c;
+  }
+  
+.pride-pansexual-yellow-text {
+  color: #ffd800;
+  }
+  
+.pride-pansexual-blue-text {
+  color: #21b1ff;
+  }
+  
+
+
+/* evans */
+.pride-evans-blue {
+  color: #ffffff;
+  color: contrast-color(#0000ff);
+  background-color: #0000ff;
+  }
+  
+.pride-evans-red {
+  color: #000000;
+  color: contrast-color(#ff0000);
+  background-color: #ff0000;
+  }
+  
+.pride-evans-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-evans-yellow {
+  color: #000000;
+  color: contrast-color(#ffff00);
+  background-color: #ffff00;
+  }
+  
+
+.pride-evans-blue-text {
+  color: #0000ff;
+  }
+  
+.pride-evans-red-text {
+  color: #ff0000;
+  }
+  
+.pride-evans-black-text {
+  color: #000000;
+  }
+  
+.pride-evans-yellow-text {
+  color: #ffff00;
+  }
+  
+
+
+/* howell */
+.pride-howell-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-howell-gold {
+  color: #000000;
+  color: contrast-color(#fcbf00);
+  background-color: #fcbf00;
+  }
+  
+.pride-howell-blue {
+  color: #000000;
+  color: contrast-color(#009fe3);
+  background-color: #009fe3;
+  }
+  
+.pride-howell-magenta {
+  color: #ffffff;
+  color: contrast-color(#e50051);
+  background-color: #e50051;
+  }
+  
+.pride-howell-purple {
+  color: #ffffff;
+  color: contrast-color(#340c46);
+  background-color: #340c46;
+  }
+  
+
+.pride-howell-white-text {
+  color: #ffffff;
+  }
+  
+.pride-howell-gold-text {
+  color: #fcbf00;
+  }
+  
+.pride-howell-blue-text {
+  color: #009fe3;
+  }
+  
+.pride-howell-magenta-text {
+  color: #e50051;
+  }
+  
+.pride-howell-purple-text {
+  color: #340c46;
+  }
+  
+
+
+/* polysexual */
+.pride-polysexual-pink {
+  color: #000000;
+  color: contrast-color(#f61cb9);
+  background-color: #f61cb9;
+  }
+  
+.pride-polysexual-green {
+  color: #000000;
+  color: contrast-color(#07d569);
+  background-color: #07d569;
+  }
+  
+.pride-polysexual-blue {
+  color: #000000;
+  color: contrast-color(#1c92f6);
+  background-color: #1c92f6;
+  }
+  
+
+.pride-polysexual-pink-text {
+  color: #f61cb9;
+  }
+  
+.pride-polysexual-green-text {
+  color: #07d569;
+  }
+  
+.pride-polysexual-blue-text {
+  color: #1c92f6;
+  }
+  
+
+
+/* queer */
+.pride-queer-black {
+  color: #ffffff;
+  color: contrast-color(#000000);
+  background-color: #000000;
+  }
+  
+.pride-queer-light-blue {
+  color: #000000;
+  color: contrast-color(#99d9ea);
+  background-color: #99d9ea;
+  }
+  
+.pride-queer-blue {
+  color: #000000;
+  color: contrast-color(#00a2e8);
+  background-color: #00a2e8;
+  }
+  
+.pride-queer-green {
+  color: #000000;
+  color: contrast-color(#b5e61d);
+  background-color: #b5e61d;
+  }
+  
+.pride-queer-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-queer-orange {
+  color: #000000;
+  color: contrast-color(#ffc90e);
+  background-color: #ffc90e;
+  }
+  
+.pride-queer-dark-pink {
+  color: #000000;
+  color: contrast-color(#fd6666);
+  background-color: #fd6666;
+  }
+  
+.pride-queer-pink {
+  color: #000000;
+  color: contrast-color(#ffaec9);
+  background-color: #ffaec9;
+  }
+  
+
+.pride-queer-black-text {
+  color: #000000;
+  }
+  
+.pride-queer-light-blue-text {
+  color: #99d9ea;
+  }
+  
+.pride-queer-blue-text {
+  color: #00a2e8;
+  }
+  
+.pride-queer-green-text {
+  color: #b5e61d;
+  }
+  
+.pride-queer-white-text {
+  color: #ffffff;
+  }
+  
+.pride-queer-orange-text {
+  color: #ffc90e;
+  }
+  
+.pride-queer-dark-pink-text {
+  color: #fd6666;
+  }
+  
+.pride-queer-pink-text {
+  color: #ffaec9;
+  }
+  
+
+
+/* sapphic */
+.pride-sapphic-pink {
+  color: #000000;
+  color: contrast-color(#fd8ba8);
+  background-color: #fd8ba8;
+  }
+  
+.pride-sapphic-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+.pride-sapphic-violet {
+  color: #000000;
+  color: contrast-color(#c76bc5);
+  background-color: #c76bc5;
+  }
+  
+.pride-sapphic-yellow {
+  color: #000000;
+  color: contrast-color(#fff71e);
+  background-color: #fff71e;
+  }
+  
+.pride-sapphic-light-pink {
+  color: #ffffff;
+  color: contrast-color(#f996c9);
+  background-color: #f996c9;
+  }
+  
+
+.pride-sapphic-pink-text {
+  color: #fd8ba8;
+  }
+  
+.pride-sapphic-white-text {
+  color: #ffffff;
+  }
+  
+.pride-sapphic-violet-text {
+  color: #c76bc5;
+  }
+  
+.pride-sapphic-yellow-text {
+  color: #fff71e;
+  }
+  
+.pride-sapphic-light-pink-text {
+  color: #f996c9;
+  }
+  
+
+
+/* transfeminine */
+.pride-transfeminine-blue {
+  color: #000000;
+  color: contrast-color(#73deff);
+  background-color: #73deff;
+  }
+  
+.pride-transfeminine-light-pink {
+  color: #000000;
+  color: contrast-color(#ffe0ed);
+  background-color: #ffe0ed;
+  }
+  
+.pride-transfeminine-pink {
+  color: #000000;
+  color: contrast-color(#ffb5d5);
+  background-color: #ffb5d5;
+  }
+  
+.pride-transfeminine-dark-pink {
+  color: #000000;
+  color: contrast-color(#ff8cbe);
+  background-color: #ff8cbe;
+  }
+  
+
+.pride-transfeminine-blue-text {
+  color: #73deff;
+  }
+  
+.pride-transfeminine-light-pink-text {
+  color: #ffe0ed;
+  }
+  
+.pride-transfeminine-pink-text {
+  color: #ffb5d5;
+  }
+  
+.pride-transfeminine-dark-pink-text {
+  color: #ff8cbe;
+  }
+  
+
+
+/* trans */
+.pride-trans-blue {
+  color: #ffffff;
+  color: contrast-color(#5bcefa);
+  background-color: #5bcefa;
+  }
+  
+.pride-trans-pink {
+  color: #ffffff;
+  color: contrast-color(#f5a9b8);
+  background-color: #f5a9b8;
+  }
+  
+.pride-trans-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-trans-blue-text {
+  color: #5bcefa;
+  }
+  
+.pride-trans-pink-text {
+  color: #f5a9b8;
+  }
+  
+.pride-trans-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* transgender */
+.pride-transgender-blue {
+  color: #ffffff;
+  color: contrast-color(#5bcefa);
+  background-color: #5bcefa;
+  }
+  
+.pride-transgender-pink {
+  color: #ffffff;
+  color: contrast-color(#f5a9b8);
+  background-color: #f5a9b8;
+  }
+  
+.pride-transgender-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-transgender-blue-text {
+  color: #5bcefa;
+  }
+  
+.pride-transgender-pink-text {
+  color: #f5a9b8;
+  }
+  
+.pride-transgender-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* transmasculine */
+.pride-transmasculine-pink {
+  color: #000000;
+  color: contrast-color(#ff8ABD);
+  background-color: #ff8ABD;
+  }
+  
+.pride-transmasculine-sky-blue {
+  color: #000000;
+  color: contrast-color(#cdf5fe);
+  background-color: #cdf5fe;
+  }
+  
+.pride-transmasculine-light-blue {
+  color: #000000;
+  color: contrast-color(#9aebff);
+  background-color: #9aebff;
+  }
+  
+.pride-transmasculine-blue {
+  color: #000000;
+  color: contrast-color(#74dfff);
+  background-color: #74dfff;
+  }
+  
+
+.pride-transmasculine-pink-text {
+  color: #ff8ABD;
+  }
+  
+.pride-transmasculine-sky-blue-text {
+  color: #cdf5fe;
+  }
+  
+.pride-transmasculine-light-blue-text {
+  color: #9aebff;
+  }
+  
+.pride-transmasculine-blue-text {
+  color: #74dfff;
+  }
+  
+
+
+/* xenogender */
+.pride-xenogender-red {
+  color: #000000;
+  color: contrast-color(#ff6691);
+  background-color: #ff6691;
+  }
+  
+.pride-xenogender-coral {
+  color: #000000;
+  color: contrast-color(#ff9997);
+  background-color: #ff9997;
+  }
+  
+.pride-xenogender-orange {
+  color: #000000;
+  color: contrast-color(#ffb782);
+  background-color: #ffb782;
+  }
+  
+.pride-xenogender-yellow {
+  color: #000000;
+  color: contrast-color(#fbffa6);
+  background-color: #fbffa6;
+  }
+  
+.pride-xenogender-blue {
+  color: #000000;
+  color: contrast-color(#84bbff);
+  background-color: #84bbff;
+  }
+  
+.pride-xenogender-violet {
+  color: #000000;
+  color: contrast-color(#9c84ff);
+  background-color: #9c84ff;
+  }
+  
+.pride-xenogender-purple {
+  color: #ffffff;
+  color: contrast-color(#a317ff);
+  background-color: #a317ff;
+  }
+  
+.pride-xenogender-white {
+  color: #000000;
+  color: contrast-color(#ffffff);
+  background-color: #ffffff;
+  }
+  
+
+.pride-xenogender-red-text {
+  color: #ff6691;
+  }
+  
+.pride-xenogender-coral-text {
+  color: #ff9997;
+  }
+  
+.pride-xenogender-orange-text {
+  color: #ffb782;
+  }
+  
+.pride-xenogender-yellow-text {
+  color: #fbffa6;
+  }
+  
+.pride-xenogender-blue-text {
+  color: #84bbff;
+  }
+  
+.pride-xenogender-violet-text {
+  color: #9c84ff;
+  }
+  
+.pride-xenogender-purple-text {
+  color: #a317ff;
+  }
+  
+.pride-xenogender-white-text {
+  color: #ffffff;
+  }
+  
+
+
+/* disability */
+.pride-disability-charcoal {
+  color: #ffffff;
+  color: contrast-color(#585858);
+  background-color: #585858;
+  }
+  
+.pride-disability-green {
+  color: #000000;
+  color: contrast-color(#3aaf7d);
+  background-color: #3aaf7d;
+  }
+  
+.pride-disability-blue {
+  color: #000000;
+  color: contrast-color(#7ac1e0);
+  background-color: #7ac1e0;
+  }
+  
+.pride-disability-grey {
+  color: #000000;
+  color: contrast-color(#e9e9e9);
+  background-color: #e9e9e9;
+  }
+  
+.pride-disability-yellow {
+  color: #000000;
+  color: contrast-color(#eedf77);
+  background-color: #eedf77;
+  }
+  
+.pride-disability-red {
+  color: #000000;
+  color: contrast-color(#cf7280);
+  background-color: #cf7280;
+  }
+  
+
+.pride-disability-charcoal-text {
+  color: #585858;
+  }
+  
+.pride-disability-green-text {
+  color: #3aaf7d;
+  }
+  
+.pride-disability-blue-text {
+  color: #7ac1e0;
+  }
+  
+.pride-disability-grey-text {
+  color: #e9e9e9;
+  }
+  
+.pride-disability-yellow-text {
+  color: #eedf77;
+  }
+  
+.pride-disability-red-text {
+  color: #cf7280;
+  }
+  
+
+
