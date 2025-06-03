@@ -6,13 +6,9 @@ It started as a component of my [IsMightier](https://wwww.IsMightier.org) projec
 
 ## Class Naming Conventions
 
-<<<<<<< HEAD
-The various color classes are named by color and grouped by flag. The groups are identified by the name of the group the flag represents except in cases where there are multiple flags for one group. In those cases, either a more specific flag name or the name of the flag's creator is used as an identifier (see the [Lesbian Pride flags](#labrys-lesbian) for an example).
-=======
 The various color classes are named by color and grouped by flag. The groups are identified by the name of the group the flag represents except in cases where there are multiple flags for one group. In those cases, either a more specific flag name or the name of the flag's creator is used as an identifier (see the [Lesbian Pride flags](#orange-pink-lesbian) for an example).
 
 Some classes have been renamed in this version (e.g., "baker" became "rainbow", "bi" became "bisexual"). In those cases, the new class name is given in the table in this README, but the old class names are still present in the css file for backwards compatibility.
->>>>>>> 2505_update
 
 ## Colors
 
